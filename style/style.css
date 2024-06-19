@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+nav {
+    background:radial-gradient(circle, #8D32D9, #3e1361);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myblock {
+    background-color: rgb(212, 24, 127);
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+nav > div:nth-child(2) {
+    background-color: #dd14dd;
+}
+
+.mybody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.right {
+    flex-direction: column;
+    width: 60%;
+    background:radial-gradient(circle, #15b7cc, #0b4e63);
+}
+
+.left {
+    width: 40%; 
+    background:radial-gradient(circle, #12e9cc, #134b61);
+
+}
+
+.mybody-left {
+    background: linear-gradient(45deg, #a114c4, #3e1361);
+    width: 50%;
+    height: 100%;
+}
+
+.left > div:nth-child(2) {
+    background: linear-gradient(45deg, #fdbd33, #a06e03);
+}
+
+.mybody-right {
+    background-color: rgb(43, 226, 52);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.right > div:nth-child(2) {
+    background-color: rgb(76, 128, 24);
+}
+
+.right > div:nth-child(3) {
+    background-color: rgb(12, 87, 12);
+}
+
+.right> div:nth-last-child(1) {
+    background-color: rgb(25, 41, 8);
+}
+
+
+.circles{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.item{
+    background-color: #250b3a;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+}
+.circles > .item:nth-child(2){
+    background-color: #411664;
+}
+.circles > .item:nth-child(3){
+    background-color: #8018d4;
+}
+.circles > .item:nth-child(4){
+    background-color: #b478e6;
+}
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+
+#credit {
+    color: aliceblue;
+    width: 100%;
+    text-align: right;
+    margin: 20px;
+    font-family: 'Comic Sans MS';
+}
